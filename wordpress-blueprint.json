@@ -1,0 +1,25 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "landingPage": "/",
+  "login": true,
+  "siteOptions": {
+    "blogname": "Evandro Ferreira — Portfólio (laboratório WordPress)",
+    "blogdescription": "Jornalismo, imagem e comunicação"
+  },
+  "steps": [
+    {
+      "step": "installTheme",
+      "themeData": {
+        "resource": "git:directory",
+        "url": "https://github.com/evandroferreira8/evandro-portfolio",
+        "ref": "experimento-wordpress-2026",
+        "refType": "branch",
+        "path": "wordpress-theme/evandro-portfolio-wordpress"
+      },
+      "options": {
+        "activate": true,
+        "targetFolderName": "evandro-portfolio-wordpress"
+      }
+    }
+  ]
+}
