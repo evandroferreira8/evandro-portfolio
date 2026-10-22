@@ -240,3 +240,9 @@ html.is-loading,html.is-loading body{overflow:hidden}
 @media(max-width:560px){.loader-moon{width:82vw;right:-31vw;top:12%}.loader-moon-halo{width:98vw;right:-39vw;top:9%}.loader-dune-back{width:205vw;height:84vw;left:-32vw;bottom:-47vw;transform:rotate(-9deg)}.loader-dune-front{width:195vw;height:68vw;left:22vw;bottom:-48vw;transform:rotate(-14deg)}.loader-line{width:52vw;right:-2vw;top:49%}.loader-star-a{right:51vw}.loader-star-b{right:35vw}.site-loader-copy{transform:translateY(18vh)}}
 
 .admin-bar .site-header{top:32px}@media(max-width:782px){.admin-bar .site-header{top:46px}}
+
+/* Entrada direta para o editor experimental */
+.ef-test-edit{position:fixed;bottom:18px;left:18px;z-index:110;display:inline-flex;min-height:51px;align-items:center;justify-content:center;padding:9px 18px;border:2px solid #234e58;border-radius:8px;background:#f1f1ec;color:#111412;text-decoration:none;font:700 15px/1.3 "Manrope",Arial,sans-serif;box-shadow:0 10px 32px #0005}
+.ef-test-edit:hover,.ef-test-edit:focus-visible{background:#fff;color:#111412;outline:3px solid #b9634e;outline-offset:2px}
+.admin-bar .site-header{top:0}
+@media(max-width:560px){.ef-test-edit{left:12px;bottom:12px;min-height:48px;font-size:13px;padding:10px 13px}}

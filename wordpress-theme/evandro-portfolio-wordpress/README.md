@@ -1,16 +1,10 @@
-# Laboratório de WordPress — portfólio Evandro Ferreira
-Este é um teste separado do site original. Os arquivos do site público não são substituídos.
+# WordPress — laboratório simplificado do portfólio
+A versão pública do site não foi modificada.
 
-## Abrir
-Abra o link de teste do Playground:
+Abra a página experimental do WordPress Playground. Ao visualizar o portfólio, clique em **✎ Editar conteúdo** no canto inferior esquerdo. No painel simplificado, você poderá editar os cinco textos disponíveis, salvar e voltar ao site. Na mesma página há o botão **+ Adicionar fotografia**.
+
+A barra administrativa padrão foi ocultada no site de teste, porque apareceu sem formatação no navegador. Também retiramos a tela de carregamento animada do experimento para evitar atrasos.
+
+O Playground roda temporariamente no seu navegador. O processo não transfere o portfólio para uma hospedagem WordPress definitiva; as alterações de teste podem ser perdidas se não forem exportadas.
+
 https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/evandroferreira8/evandro-portfolio/experimento-wordpress-2026/wordpress-blueprint.json
-
-## Testar a edição
-- Visualize o portfólio original já adaptado.
-- No painel, entre em **Aparência > Personalizar > Conteúdo do portfólio (teste)**; mude um dos textos e publique a alteração **somente no Playground**.
-- Para acrescentar uma imagem, entre em **Fotos > Adicionar fotografia**; escreva o título, defina a **imagem destacada** e clique em Publicar.
-- A nova imagem aparece no final da galeria; as fotos antigas permanecem.
-- O restante do arquivo jornalístico e as demais seções ainda são estáticos. Este piloto testa a viabilidade editorial, não uma migração definitiva.
-- Fotos originais do portfólio vêm do repositório principal via GitHub Raw. Isso evita alterar ou comprimir novamente os arquivos.
-
-O WordPress Playground é um ambiente de avaliação. Para conservar alterações, exporte a instância antes de fechá-la. Este ramo não altera o GitHub Pages da versão pública.

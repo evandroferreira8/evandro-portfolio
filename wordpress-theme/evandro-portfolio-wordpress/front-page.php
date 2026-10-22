@@ -2,23 +2,9 @@
 
 <a class="skip" href="#conteudo">Pular para o conteúdo</a>
 
-<div class="site-loader" id="siteLoader" aria-live="polite" aria-label="Carregando site">
-  <div class="site-loader-scene" aria-hidden="true">
-    <span class="loader-sky-grain"></span>
-    <span class="loader-moon-halo"></span>
-    <span class="loader-moon"></span>
-    <span class="loader-dune loader-dune-back"></span>
-    <span class="loader-dune loader-dune-front"></span>
-    <span class="loader-star loader-star-a"></span>
-    <span class="loader-star loader-star-b"></span>
-    <span class="loader-line"></span>
-  </div>
-  <div class="site-loader-copy">
-    <div class="site-loader-mark"><span>Evandro</span><em>Ferreira</em></div>
-    <div class="site-loader-status">carregando</div>
-    <div class="site-loader-dots" aria-hidden="true"><span></span><span></span><span></span></div>
-  </div>
-</div>
+<?php if(current_user_can('edit_theme_options')):?>
+<a class="ef-test-edit" href="<?php echo esc_url(admin_url('admin.php?page=ef-portfolio-editor')); ?>">✎ Editar conteúdo</a>
+<?php endif;?>
 
 <header class="site-header" id="topo">
   <a class="brand" href="#capa" aria-label="Voltar ao início">
